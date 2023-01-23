@@ -5,9 +5,8 @@
  * using bubble sort algorithm.
  * @array: The array of integers to be sorted
  * @size: The size of the array
- *
- * Return: sorted elements in ascending order.
  */
+
 void bubble_sort(int *array, size_t size)
 {
 	unsigned int i, n = size;

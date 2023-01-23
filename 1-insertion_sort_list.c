@@ -4,9 +4,8 @@
  * insertion_sort_list - Sorts a doubly linked list of integers
  * in ascending order using insertion sort.
  * @list:Double pointer to the list.
- *
- * Return: Sorted doubly linked list in ascended order.
  */
+
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *node, *temp, *next, *temp_next, *temp_prev;
