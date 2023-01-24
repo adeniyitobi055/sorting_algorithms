@@ -11,7 +11,10 @@
  * @n: Integer stored in the node
  * @prev: Pointer to the previous element of the list
  * @next: Pointer to the next element of the list
- */
+*/
+#define UP 0
+#define DOWN 1
+
 typedef struct listint_s
 {
 	const int n;
