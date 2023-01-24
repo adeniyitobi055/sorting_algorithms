@@ -1,10 +1,12 @@
 #include "sort.h"
-#include "stdlib.h"
+#include <stdlib.h>
+
 /**
- *  *  * counting_sort - this is a counting sort method implementation
- *   *   * @array: array to sort
- *    *    * @size: array size
- *     *     */
+ * counting_sort - this is a counting sort method implementation
+ * @array: array to sort
+ * @size: array size
+ */
+
 void counting_sort(int *array, size_t size)
 {
 	int i, max;
@@ -47,4 +49,3 @@ void counting_sort(int *array, size_t size)
 	free(count);
 	free(copy);
 }
-
