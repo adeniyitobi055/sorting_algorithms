@@ -5,6 +5,9 @@
 #include <string.h>
 #include <stdlib.h>
 
+#define UP 0
+#define DOWN 1
+
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -12,8 +15,6 @@
  * @prev: Pointer to the previous element of the list
  * @next: Pointer to the next element of the list
 */
-#define UP 0
-#define DOWN 1
 
 typedef struct listint_s
 {
